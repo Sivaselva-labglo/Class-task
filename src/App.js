@@ -25,7 +25,7 @@ function App() {
     <Component1/> */}
     <Task/>
     {/* <View/> */}
-    {/* <Removeitems/> */}
+    <Removeitems/>
     {/* <Calc /> */}
     {/* <Component1/> */}
     {/* <Api/> */}
