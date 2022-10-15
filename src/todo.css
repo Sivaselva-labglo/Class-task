@@ -1,0 +1,24 @@
+* {
+    box-sizing: content-box;
+    /* box-sizing: content-box; */
+}
+
+body {
+    background-color: cyan;
+}
+
+#todo{
+    /* position: absolute; */
+    position: absolute;
+    /* margin-top: 850;
+    margin-bottom: 950;
+    margin-left: 450;
+    margin-right: 550; */
+    padding-left: 500;
+    padding-top: 250;
+    padding-right: 300;
+    padding-bottom: 350;
+    background-color: rgba(255, 255, 255, 0.65);
+    height: 500px;
+    width: 450px;
+}
