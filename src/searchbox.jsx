@@ -57,7 +57,8 @@ export default function Searchbox() {
           (userDetails.length > 0)
             ? userDetails.map((user) => (
               <ul>
-                <li>{user.name}</li>
+                <a href="/"><li>{user.name}</li></a>
+                
                 <li>{user.country}</li>
               </ul>
             ))
