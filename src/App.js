@@ -16,6 +16,13 @@ import Todo from './todo';
 import Api from './api';
 import Task from './classTask';
 import View from './clsView';
+import Contexts from './clsDemo';
+import Example from './loader';
+import Raguapi from './raguApi';
+import Apitoken from './apiToken';
+import Useref from './useRef';
+import Ref from './ref';
+import Formref from './useRefDemo';
 function App() {
   return (
     <>
@@ -23,18 +30,25 @@ function App() {
     <ContentPage/>
     
     <Component1/> */}
-    <Task/>
+    {/* <Contexts/> */}
+    {/* <Task/> */}
     {/* <View/> */}
-    <Removeitems/>
+    {/* <Removeitems/> */}
     {/* <Calc /> */}
     {/* <Component1/> */}
     {/* <Api/> */}
+    {/* <Raguapi/> */}
+    {/* <Apitoken /> */}
+    {/* <Useref /> */}
+    <Formref />
+    {/* <Ref /> */}
     {/* <Todo/> */}
     {/* <Viewtxt/> */}
     {/* <Fileupload/> */}
     {/* <Democlass/> */}
     {/* <Searchbox/> */}
     {/* <Changingstate/> */}
+    {/* <Example /> */}
     {/* <Testurl/> */}
     </>
   );

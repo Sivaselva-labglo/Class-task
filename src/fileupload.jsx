@@ -24,7 +24,7 @@ export default function Fileupload() {
             
             <form encType='multipart/form-data'>
             <p>Browse and upload a file</p> <br/> <br/>
-            <input type='file' accept='.jpeg' name='file' onChange={uploadFile}/>
+            <input type='file'  name='file' onChange={uploadFile}/>
             <button type='submit' onClick={viewFile}>Submit</button>
             </form>
 
@@ -32,7 +32,7 @@ export default function Fileupload() {
                 (view) ? 
                 <img
               style={{ width: "50%" }}
-              src={storeFile === "" ? "" : URL.createObjectURL(storeFile)}
+              src={storeFile === "" ? "" : URL.createObjectURL(storeFile)} 
             /> : <> No img</>
             }
         </div>
